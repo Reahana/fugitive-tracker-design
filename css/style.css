@@ -1,13 +1,21 @@
-.banner{
-
-    
-}
-.banner img{
-  border: 1px solid;
+.bannar{
+  background: url('../image/banner.jpg') no-repeat ;
+  min-height: 500px;
+  background-size: cover;
 }
 .options{
-   background-color: darksalmon;
+   background-color: white;
+   min-height: 500px;
 }
 .blog{
-    background-color: khaki;
+    background-color:black;
+    min-height: 500px;
 }
+/* @media only screen and (min-width: 600px) {
+    .bannar{
+        background-image: url('../image/banner.jpg');
+        min-height: 500px;
+        background-size: cover;
+        width: 1349px;
+      }
+} */
