@@ -1,6 +1,9 @@
 .banner{
- min-height: 300px;
-    background-color: aqua;
+
+    
+}
+.banner img{
+  border: 1px solid;
 }
 .options{
    background-color: darksalmon;
