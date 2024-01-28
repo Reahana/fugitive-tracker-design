@@ -1,12 +1,73 @@
+  /* red :#ff0000 !important; @@@@
+  light bliue 3FB4F9
+  dark blue 629FC4
+  middle blue 54ABDF @@@@@
+  yellow F9DD68 @@@@
+  
+  ms-md-5 ps-md-5 pe-3
+  */
+  nav{
+    border-bottom: 1px solid;
+  }
+  .menu-bar{
+    /* background-color: black !important; */
+    background-color: white !important;
+   
+  }
+  .menu:first-child{
+    
+    padding-left: 160px !important;
+  
+  }
+.menu{
+ 
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.menu a:hover{
+  color: black!important;
+  text-decoration: underline;
+}
+
+.menu a{
+  color:#54ABDF !important;
+}
+.menu:last-child{
+  padding-left: 150px !important;
+}
+.menu:last-child a:hover{
+  text-decoration: none;
+  color: white !important;
+}
+.login-btn{
+border: 2px solid #54ABDF;
+border-radius: 8px;
+color:#54ABDF !important;
+  
+}
+
+.login-btn:hover {
+  background-color: #54ABDF;
+  color: white !important;
+}
+
+
+
+.active{
+  font-weight: 600;
+  text-decoration: underline;
+
+  
+}
 .bannar{
   background: url('../image/banner.jpg') no-repeat ;
   background-position: center;
   min-height: 90vh;
   background-size: cover;
 }
-.options{
-   background-color: white;
-   min-height: 500px;
+.go-to{
+   background-color:#fafafa;
+   min-height: 90vh;
 }
 .blog{
     background-color:black;
