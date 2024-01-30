@@ -66,16 +66,20 @@ color:#54ABDF !important;
 
 .goto{
   background-color:#fffef4 ;
-  background-image: linear-gradient(to top left, #ff0000 , #F9DD68, #629FC4);
-opacity: .9;
-  min-height: 60vh;
+  /* background-image: linear-gradient(to top left, #ff0000 , #F9DD68, #629FC4);
+opacity: .9; */
+  min-height: 70vh;
 }
 
 .goto .title{
 text-align: center;
 font-weight: 700;
-padding-bottom: 20px;
-color: #fafafa;
+padding-bottom: 40px;
+padding-top: 20px;
+font-size: 50px;
+}
+.goto button{
+  font-size: 25px;
 }
 .go-to{
    background-color:#fafafa;
