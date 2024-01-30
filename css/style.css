@@ -6,56 +6,41 @@
   
   ms-md-5 ps-md-5 pe-3
   */
-  nav{
-    border-bottom: 1px solid;
-  }
-  .menu-bar{
-    /* background-color: black !important; */
-    background-color: white !important;
-   
-  }
-  .menu:first-child{
-    
-    padding-left: 160px !important;
+
+
+  /* menu section */
+  nav{border-bottom: 1px solid;}
+  .menu-bar{background-color: white !important;}
   
-  }
 .menu{
- 
   padding-left: 10px !important;
   padding-right: 10px !important;
 }
+.menu:first-child{padding-left: 160px !important;}
+.menu:last-child{padding-left: 150px !important;}
+.menu a{color:#54ABDF !important;}
 .menu a:hover{
   color: black!important;
   text-decoration: underline;
-}
-
-.menu a{
-  color:#54ABDF !important;
-}
-.menu:last-child{
-  padding-left: 150px !important;
 }
 .menu:last-child a:hover{
   text-decoration: none;
   color: white !important;
 }
 .login-btn{
-border: 2px solid #54ABDF;
+border: 2px solid #54ABDF !important;
 border-radius: 8px;
 color:#54ABDF !important;
-  
 }
-
 .login-btn:hover {
   background-color: #54ABDF;
   color: white !important;
 }
+.active-link{font-weight: 600 !important;}
 
 
 
-.active{
-  font-weight: 600;
-}
+/* bannar */
 
 .bannar{
   background: url('../image/banner.jpg') no-repeat ;
@@ -64,13 +49,14 @@ color:#54ABDF !important;
   background-size: cover;
 }
 
+
+
+/* goto section */
+
 .goto{
   background-color:#fffef4 ;
-  /* background-image: linear-gradient(to top left, #ff0000 , #F9DD68, #629FC4);
-opacity: .9; */
   min-height: 70vh;
 }
-
 .goto .title{
 text-align: center;
 font-weight: 700;
@@ -81,24 +67,28 @@ font-size: 50px;
 .goto button{
   font-size: 25px;
 }
-.go-to{
-   background-color:#fafafa;
-   min-height: 90vh;
+.goto button a {
+  text-decoration: none;
+  color: #ffffff;
 }
-.blog{
-    background-color:black;
-    min-height: 90vh;
+
+
+/* Article section */
+
+.article{background-color:#b75a5a;}
+.article .title{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  padding: 10px 0 20px 0;
+  }
+
+
+/* Footer section */
+
+footer{font-size: 20px;}
+footer a{
+  text-decoration: none;
+  color: crimson
 }
-.blog .title{
-text-align: center;
-color: aliceblue;
-font-size: 40px;
-}
-/* @media only screen and (min-width: 600px) {
-    .bannar{
-        background-image: url('../image/banner.jpg');
-        min-height: 500px;
-        background-size: cover;
-        width: 1349px;
-      }
-} */
+footer a:hover{text-decoration: underline;}

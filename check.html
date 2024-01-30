@@ -5,48 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+
+    <title>Check Status | Fugitive Tracker</title>
 </head>
 <body>
-    <!--====== navbar ====== -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top  ">
-      
-        <div class="container-fluid">
-          <a class="navbar-brand ms-2" href="#">
-            
-            <img src="./image/logo.png"  width="68" height="50"> 
-          </a> 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="fs-4 navbar-nav me-auto mx-auto mb-2 mb-lg-0">
-              <li class="nav-item ms-md-5 ps-md-5 pe-3 ">
-                <a class="nav-link  active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " href="#">Law List</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="#">Amount of Fine</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="#">How to Solve</a>
-              </li>
-              <li class="nav-item  me-5 pe-5">
-                <a class="nav-link" href="./check.html">Check My Status </a>
-              </li>
-              <li class="nav-item ps-md-5 ms-md-5 ">
-                <a class="nav-link" href="#" ><i class="fa-solid fa-user"></i> Log in</a>
-              </li>
-            </ul>
-            
-            
-            
-          
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg menu-bar sticky-top  ">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-2" href="#">
+        <img src="./image/logo.png"  width="68" height="50"> 
+      </a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="fs-4 navbar-nav me-auto  mb-2 mb-lg-0">
+          <li class="nav-item menu ">
+            <a class="nav-link red " aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item menu ">
+            <a class="nav-link  red" href="#">Law List</a>
+          </li>
+          <li class="nav-item menu">
+            <a class="nav-link red" href="#">Amount of Fine</a>
+          </li>
+          <li class="nav-item menu">
+            <a class="nav-link red" href="#">How to Solve</a>
+          </li>
+          <li class="nav-item  menu">
+            <a class="nav-link active-link" href="./check.html">Check My Status </a>
+          </li>
+          <li class="nav-item  menu ">
+            <a class="nav-link login-btn" href="./login.html" ><i class="fa-solid fa-user "></i> Log in</a>
+          </li>
+        </ul>
+        
+        
+      </div>
+     
+    </div>
+  
+  </nav>
+<section class="container-fluid">
+  <h2 class="my-3">To know your case status please enter your NID number in the search box and search</h2>
+  <form class="w-50 mx-auto " role="search">
+    <div class="mb-3 mt-2">
+      <!-- <label for="search" class="form-label">Search</label> -->
+      <input type="search" placeholder="NID number" class="form-control form-control-lg" id="exampleInputPassword1">
+    </div>
+   <div >
+    <div class="d-grid">
+      <button class="btn btn-outline-success btn-lg " type="submit">Search</button>
+   
+    </div>
+    </div>
+    
+  </form>
+</section>
+ 
+
       <script src="https://kit.fontawesome.com/dd288c4724.js" crossorigin="anonymous"></script>
 <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
