@@ -65,8 +65,10 @@ color:#54ABDF !important;
 }
 
 .goto{
-  background-color:#F9DD68 ;
+  background-color:#fffef4 ;
+  min-height: 90vh;
 }
+
 .goto .title{
 text-align: center;
 }
