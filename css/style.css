@@ -55,15 +55,20 @@ color:#54ABDF !important;
 
 .active{
   font-weight: 600;
-  text-decoration: underline;
-
-  
 }
+
 .bannar{
   background: url('../image/banner.jpg') no-repeat ;
   background-position: center;
   min-height: 90vh;
   background-size: cover;
+}
+
+.goto{
+  background-color:#F9DD68 ;
+}
+.goto .title{
+text-align: center;
 }
 .go-to{
    background-color:#fafafa;
