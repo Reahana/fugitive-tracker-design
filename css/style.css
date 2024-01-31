@@ -6,7 +6,7 @@
   
   ms-md-5 ps-md-5 pe-3
   */
-
+/* ========common sections ======*/
 
   /* menu section */
   nav{border-bottom: 1px solid;}
@@ -38,7 +38,16 @@ color:#54ABDF !important;
 }
 .active-link{font-weight: 600 !important;}
 
+/* Footer section */
 
+footer{font-size: 20px;}
+footer a{
+  text-decoration: none;
+  color: crimson
+}
+footer a:hover{text-decoration: underline;}
+
+/* ===== home page ====== */
 
 /* bannar */
 
@@ -84,11 +93,8 @@ font-size: 50px;
   }
 
 
-/* Footer section */
-
-footer{font-size: 20px;}
-footer a{
-  text-decoration: none;
-  color: crimson
+/* ==== check page =====  */
+.check-status{
+  background-color: #f9f9f9;
+  min-height: 76vh;
 }
-footer a:hover{text-decoration: underline;}
