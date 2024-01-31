@@ -40,7 +40,10 @@ color:#54ABDF !important;
 
 /* Footer section */
 
-footer{font-size: 20px;}
+footer{
+  font-size: 20px;
+  background-color: #ffffff;
+}
 footer a{
   text-decoration: none;
   color: crimson
@@ -76,15 +79,16 @@ font-size: 50px;
 .goto button{
   font-size: 25px;
 }
-.goto button a {
+.goto  a {
   text-decoration: none;
   color: #ffffff;
+  font-size: 25px;
 }
 
 
 /* Article section */
 
-.article{background-color:#b75a5a;}
+.article{background-color:#00000084;}
 .article .title{
   text-align: center;
   color: rgb(255, 255, 255);
@@ -94,7 +98,7 @@ font-size: 50px;
 
 
 /* ==== check page =====  */
-.check-status{
+.check-status , .solve-page, .law-list , .fine-page{
   background-color: #f9f9f9;
   min-height: 76vh;
 }
